@@ -1,0 +1,47 @@
+.hero{
+    /* border: 2px solid black; */
+    position: relative;
+    height: 87vh;
+    background-image:url('../../public/Images/hero/hero.jpg');
+    background-position: top 10% right -10%;
+    background-size: cover;
+}
+.hero_text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-align: center;
+    padding: 10px;
+}
+.heading{
+   font-size: 50px;
+   font-weight: 600;
+   margin:0;
+   
+   
+}
+.subheading{
+    font-size:20px; 
+    font-weight: 400;
+    margin:0;
+   
+}
+.btn{
+    margin: 10px;
+    width: 12rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(14, 174, 185);
+    box-shadow: 4px 4px 8px gray;
+    transition: .4s ;
+}
+.btn:hover{
+    /* box-shadow:-2px 2px 8px gray; */
+    /* font-size: 1.2rem; */
+    background-color: rgb(7, 128, 137);;
+}

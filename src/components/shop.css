@@ -1,0 +1,12 @@
+.shop{
+    position: relative;
+    display:  flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    align-content: center;
+}
+.shop_header{
+    background-image: url('../../public/Images/banner/b1.jpg');
+    
+}

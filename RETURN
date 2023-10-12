@@ -1,0 +1,35 @@
+[33mcommit 3ef58e85c8572381d9125f51d3519cae6a12261c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;32mimg_features[m[33m)[m
+Author: Vijay Myakalwad <vijaymyakalwad25@gmail.com>
+Date:   Sat Oct 7 13:57:27 2023 +0530
+
+    images fixed
+
+[33mcommit 714521b6c577e41b0d113ed86ff68331718453e0[m
+Author: Vijay Myakalwad <vijaymyakalwad25@gmail.com>
+Date:   Sat Oct 7 12:32:55 2023 +0530
+
+    created shop and cart page
+
+[33mcommit 9004062bfb62d6ed67976a2a51fa5b4d5eb3c1dd[m
+Author: Vijay Myakalwad <vijaymyakalwad25@gmail.com>
+Date:   Thu Oct 5 14:59:16 2023 +0530
+
+    routing done
+
+[33mcommit 9970bbbbf0c4712846afe78e47fcb05dbd0cd614[m
+Author: Vijay Myakalwad <vijaymyakalwad25@gmail.com>
+Date:   Thu Oct 5 13:35:58 2023 +0530
+
+    trying to route
+
+[33mcommit 4503a61c3b194be75cc1e5fa1dacd4cc3ded586d[m
+Author: Vijay Myakalwad <vijaymyakalwad25@gmail.com>
+Date:   Fri Sep 29 00:37:57 2023 +0530
+
+    footer added
+
+[33mcommit 8cf99c77459f98a1c49001e0d8a7828f92b148fb[m
+Author: Vijay Myakalwad <vijaymyakalwad25@gmail.com>
+Date:   Thu Sep 28 22:39:51 2023 +0530
+
+    first commit
