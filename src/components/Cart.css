@@ -1,0 +1,35 @@
+
+.list_container{
+    margin: 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.list_item{
+    display: flex;
+    height: 20vh;
+    width: 70%;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(117, 116, 116);
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgb(126, 124, 124); 
+    font-size: 20px;
+
+
+}
+.list_item img{
+    height: 100%;
+    border-radius: 5px;
+}
+
+button{
+    text-decoration: none;
+    outline: none;
+    margin: 0 5px;
+}

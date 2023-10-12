@@ -33,8 +33,8 @@
 .blog-box{
     position: relative;
     display: flex;
-    width: 80%;
-    height: 280px;
+    width: 70%;
+    height: 300px;
     margin: 50px;
     border-radius: 10px;
     /* border: 1px solid black; */
@@ -44,7 +44,7 @@
 .blog-box .blog-img{
     /* border: 1px solid black; */
     height: 100%;
-    width:50%;
+    width:40%;
     margin-right: 5%;
     /* background-image: url("../../public/Images/blog/b1.jpg"); */
     background-size: cover;

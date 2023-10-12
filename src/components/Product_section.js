@@ -1,5 +1,5 @@
 import './Product_section.css';
-import Product_card from './Product_card';
+import ProductCard from './ProductCard';
 import { products_list } from './data';
 
 function Product_section() {
@@ -9,7 +9,7 @@ function Product_section() {
             return product;
         }}).map((product)=>{
         return (
-            <Product_card item={product} />
+            <ProductCard key={product.key} item={product} />
         );
     })
 
