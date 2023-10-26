@@ -66,3 +66,21 @@
 
     color:black;
 }
+.counter{
+   
+
+    height:1.5em;
+    width:1.5em;
+    position:absolute;
+    display: flex;
+    z-index: 3;
+    top: -15px;
+    left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    color:rgb(14, 173, 185) ;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 600;
+}
