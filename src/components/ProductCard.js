@@ -1,6 +1,7 @@
 import { FaStar ,FaCartPlus} from "react-icons/fa";
 import { cart_list } from "./data";
-import { useState } from "react";
+import { useState ,useContext, useEffect} from "react";
+import { userContext } from "../App";
 
 function Star_patter() {
     
@@ -17,12 +18,18 @@ function Star_patter() {
 
 
 function ProductCard(props) {
-    const [cartList, setCartlist] = useState(cart_list)
+    //const [cartList, setCartlist] = useState(cart_list)
+    const {list,changelist} = useContext(userContext);
     const product = props.item;
-
+    // console.log(product);
+    
     const handleCart = (item)=>{
-        cartList.push(item);
-        alert("item added")
+        // add_item(item);
+       console.log(`item added ${item.key}`);
+       const new_list = [...list,item];
+       changelist(new_list);
+       console.log(`total item are ${list.length+1}`);
+       
    }
    
     return (
@@ -33,7 +40,7 @@ function ProductCard(props) {
                 <p className="p2">{product.type}</p>
                 <p className="p3">${product.price}</p>
                 <Star_patter/>  
-                <div className="cart_icon" onClick={eve=>handleCart(product)}><FaCartPlus color={"rgb(14, 173, 185)"} size={'30px'}/></div>   
+                <div className="cart_icon" onClick={()=>handleCart(product)}><FaCartPlus color={"rgb(14, 173, 185)"} size={'30px'}/></div>   
             </div>
 
         </li>

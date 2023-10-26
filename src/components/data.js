@@ -306,39 +306,12 @@ export const cart_list = [
         price:99
     },
     {
-        key:2,
-        code:"feature_product",
-        type : "Half Slave Shirt",
-        img : "./Images/products/f2.jpg",
-        company :'adidas',
-        quantity:1,
-        price:99
-    },
-    {
-        key:3,
-        code:"feature_product",
-        type : "Half Slave Shirt",
-        img :"./Images/products/f3.jpg",
-        company :'adidas',
-        quantity:1,
-        price:99
-    },
-    {
-        key:4,
-        code:"feature_product",
-        type : "Half Slave Shirt",
-        img :"./Images/products/f4.jpg",
-        company :'adidas',
-        quantity:1,
-        price:99
-    },
-    {
         key:5,
         code:"feature_product",
         type : "Half Slave Shirt",
         img : "./Images/products/f5.jpg",
         company :'adidas',
-        quantity:2,
+        quantity:1,
         price:99
     }
 ]
