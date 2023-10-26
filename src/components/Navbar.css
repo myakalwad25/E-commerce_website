@@ -84,3 +84,8 @@
     font-size: 19px;
     font-weight: 600;
 }
+
+.cartSymbol{ 
+    transform:rotateY(180);
+}
+

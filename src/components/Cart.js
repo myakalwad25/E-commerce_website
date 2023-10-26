@@ -2,9 +2,13 @@
 import { cart_list } from "./data";
 import {  useState,useContext, useEffect } from "react";
 import { userContext } from "../App";
-import {MdOutlineCancel} from "react-icons/md";
+import {RiDeleteBin5Fill} from "react-icons/ri";
 import './Cart.css'
 
+
+const handledec = (item)=>{
+
+}
 export default function Cart() {
     
     const {list,changelist} = useContext(userContext);
@@ -15,6 +19,10 @@ export default function Cart() {
         setLen(list.length);
         setCost(new_cost)
     },[list]);
+
+    const handleinc=(item)=>{
+       
+    }
 
     const new_list = list;
     //console.log(list);
@@ -43,9 +51,12 @@ export default function Cart() {
             <div className="list_item" key={item.key}>
                     <img src={item.img} alt="product_img"></img>
                     <h3>{item.type}</h3>
-                    <div>{item.quantity}</div>
+                    <div> 
+                        <button onClick={()=>handledec(item)}>{"-"}</button>
+                            {item.quantity}
+                        <button onClick={()=> handleinc(item)}>{"+"}</button></div>
                     <div>{item.price*item.quantity}</div>
-                    <div className="cross" onClick={evn => handleCross(item)}><MdOutlineCancel size={"30px"}/> </div>
+                    <div className="cross" onClick={evn => handleCross(item)}><RiDeleteBin5Fill size={"25px"}/> </div>
                     
                 </div>
             )
@@ -55,19 +66,19 @@ export default function Cart() {
     <> 
         
        <div className="list_container">
-            <div className="list_item" >
+            <div className="list_item" style={{marginBottom:"20px"}}>
                 <div>{"Items Images"}</div>
                 <div>{"Items Name"}</div>
                 <div>{"Items quantity"}</div>
-                <div>{"Items Price"}</div>
+                <div style={{marginRight:"70px"}}>{"Items Price"}</div>
 
             </div>
             {
                 prodcuts_list
             }
-            <div className="list_item">
+            <div className="list_item" style={{marginTop:"20px"}}>
                 <div><b>{"Total items : "}{len}</b></div>
-                <div><b>{"Total Price : "}{cost}</b></div>
+                <div><b>{`Total Price : $${cost}`}</b></div>
             </div>
        </div>
 

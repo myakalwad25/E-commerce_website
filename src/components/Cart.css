@@ -13,23 +13,30 @@
     display: flex;
     height: 20vh;
     width: 70%;
+   
     margin-bottom: 10px;
     justify-content: space-around;
     align-items: center;
     border: 1px solid rgb(117, 116, 116);
     border-radius: 10px;
-    box-shadow: 4px 4px 8px rgb(126, 124, 124); 
+    box-shadow: 2px 2px 4px rgb(126, 124, 124); 
     font-size: 20px;
 
 
+}
+.list_item:hover{
+    box-shadow: 4px 4px 8px rgb(102, 101, 101); 
 }
 .list_item img{
     height: 100%;
     border-radius: 5px;
 }
 
-button{
-    text-decoration: none;
+
+
+.list_item button{
     outline: none;
     margin: 0 5px;
+    text-decoration: none;
+    font-size: 20px;
 }
