@@ -1,5 +1,5 @@
 .section_heading{
-    background-image: url("../../public/Images/banner/b2.jpg");
+    /* background-image: url("../../public/Images/banner/b2.jpg"); */
     display: flex;
     flex-direction: column;
     align-content: space-around;
@@ -8,17 +8,19 @@
     width: 100%;
     padding: 50px 0;
     position: relative;
-    color: white;  
+    color: black;  
 }
 
 .section_heading h1{
     font-size: 50px;
     margin: 0;
+    
 }
 
 .section_heading h3{
     font-weight: 20px;
     font-weight: 600;
+    
 }
 
 .product_gallery{

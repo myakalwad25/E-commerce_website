@@ -13,7 +13,7 @@ export default function Home() {
         <div >
             <Hero/>
             <Features/>
-            <Product_section/>
+            <Product_section heading ={'Feature Products'} subheadin={'Summer collections New Modern Design'} filter={'new_arrival'}/>
         </div>
     );
 }
