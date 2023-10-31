@@ -46,20 +46,20 @@ function Contact() {
                     <div className="people">
                         <div>
                             <img src="img/people/1.png" alt=""/>
-                            <p><span>John Deo</span> Senior Marketing Manager</p>
+                            <p><span>Vijay Myakalwad : </span> Senior Marketing Manager</p>
                             <p>Phone:+91 9472937430</p> 
                             <p> Email: contact@email.com</p>
                         </div>
                         <div>
                             <img src="img/people/2.png" alt=""/>
-                            <p><span>vijay myakal</span> Director</p> 
+                            <p><span>Adha Sharma : </span> Director</p> 
                             <p>Senior Marketing Manager</p>
                             <p>  Phone:+91 9472937430</p> 
                             <p> Email: contact@email.com</p>
                         </div> 
                         <div>
                             <img src="img/people/3.png" alt=""/>
-                            <p><span>John cena</span> Senior Marketing Manager </p> 
+                            <p><span>micheal : </span> Senior Marketing Manager </p> 
                             <p>Phone:+91 9472937430 </p>
                             <p> Email: contact@email.com</p>
                         </div>                     

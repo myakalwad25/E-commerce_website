@@ -27,8 +27,8 @@ function ProductCard(props) {
         // add_item(item);
        console.log(`item added ${item.key}`);
        const new_list = [...list,item];
-       changelist(new_list);
        console.log(`total item are ${list.length+1}`);
+       changelist(new_list);
        
    }
    

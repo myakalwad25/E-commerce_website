@@ -23,8 +23,13 @@ function Navbar() {
     
     useEffect(()=>{
         setRotation(rotation + 360);
-        setCount(list.length);
+    },[list])
 
+    useEffect(()=>{
+        setTimeout(() => {
+            setCount(list.length);
+        }, 500);
+        
     },[list])
 
     return (

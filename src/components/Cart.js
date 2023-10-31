@@ -6,9 +6,7 @@ import {RiDeleteBin5Fill} from "react-icons/ri";
 import './Cart.css'
 
 
-const handledec = (item)=>{
 
-}
 export default function Cart() {
     
     const {list,changelist} = useContext(userContext);
@@ -20,8 +18,31 @@ export default function Cart() {
         setCost(new_cost)
     },[list]);
 
-    const handleinc=(item)=>{
-       
+    function handleinc(item) {
+        // alert(`item incremented`);
+        let incr_list = list.map((ele)=> {
+            if(ele.key === item.key) {
+                ele.quantity = ele.quantity+1;
+                console.log(`ele.key increased to ${ele.key}`);
+                return ele;
+            }
+            else return ele;
+        })
+
+        changelist(incr_list);
+        
+    }
+    function handledec(item){
+        let decr_list = list.map((ele)=> {
+            if(ele.key === item.key && ele.quantity!==0) {
+                ele.quantity = ele.quantity-1;
+                console.log(`ele.key decresed to ${ele.key}`);
+                return ele;
+            }
+            else return ele;
+        })
+
+        changelist(decr_list);
     }
 
     const new_list = list;
@@ -46,7 +67,7 @@ export default function Cart() {
     // console.log(list);
     let new_cost = 0;
     let  prodcuts_list = new_list.map((item)=>{
-         new_cost += item.price;
+         new_cost += (item.quantity*item.price);
         return(
             <div className="list_item" key={item.key}>
                     <img src={item.img} alt="product_img"></img>
