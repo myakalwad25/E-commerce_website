@@ -34,9 +34,9 @@ function Navbar() {
 
     return (
         <div className="nav">
-            <span className="nav_logo">
-                logo
-            </span>
+            
+                <img src="./Images/logo/png/cwb.png" className="nav_logo"></img>
+           
             <ul className="nav_ul">
                
                 {items}
