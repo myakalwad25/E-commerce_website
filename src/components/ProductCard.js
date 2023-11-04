@@ -24,10 +24,22 @@ function ProductCard(props) {
     // console.log(product);
     
     const handleCart = (item)=>{
-        // add_item(item);
+        
+       let flag = 0;
+       let new_list = list.map(ele=>{
+            if(ele.key === item.key) {
+                flag = 1;
+                ele.quantity = ele.quantity+1;
+            }
+            return ele;
+       })
+       if(flag==0) {
+        new_list = [...new_list,item];
+       }
+       
+       
        console.log(`item added ${item.key}`);
-       const new_list = [...list,item];
-       console.log(`total item are ${list.length+1}`);
+       console.log(`total item are ${new_list.length}`);
        changelist(new_list);
        
    }

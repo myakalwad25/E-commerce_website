@@ -21,7 +21,7 @@ export const userContext = createContext();
 function App() {
   
   const [list, setList] = useState(cart_list);
-  const changelist = (new_list) =>{
+  function changelist(new_list) {
     setList(new_list);
   }
 
