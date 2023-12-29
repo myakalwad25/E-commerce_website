@@ -16,9 +16,7 @@ function About() {
                           error quidem animi facere aliquam. Praesentium facilis ut
                            sapiente magnam inventore! Architecto beatae similique ullam
                             necessitatibus facilis facere deleniti unde reiciendis, maxime iste. 
-                            A eligendi fugiat, adipisci quas ex soluta dolore repellendus? 
-                            Ea impedit exercitationem animi dolorem qui ut consequatur cumque
-                             corrupti esse saepe. Tempora, saepe exercitationem. Veniam?
+                            A eligendi fugiat, adipisci quas ex soluta ationem. Veniam?
                     </p>
                 </div>
             </div>

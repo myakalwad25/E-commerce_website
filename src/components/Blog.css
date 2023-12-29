@@ -40,11 +40,12 @@
     /* border: 1px solid black; */
     align-content: space-between;
     
+    
 }
 .blog-box .blog-img{
     /* border: 1px solid black; */
     height: 100%;
-    width:40%;
+    /* width:40%; */
     margin-right: 5%;
     /* background-image: url("../../public/Images/blog/b1.jpg"); */
     background-size: cover;
@@ -74,11 +75,11 @@
     margin: 6px;
 }
 .p1{
-    font-size: xx-large;
+    font-size: 2em;
     font-weight: 600;
 }
 .p2{
-    font-size: large;
+    font-size: 1.2em;
     font-weight: 300;
 }
 
@@ -86,6 +87,7 @@
     position: absolute;
     bottom: 160px;
     margin:0;
+    top: -25%;
     font-size: 90px;
     color: rgb(172, 171, 171);
     font-weight: 800;

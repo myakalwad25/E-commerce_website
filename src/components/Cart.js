@@ -91,7 +91,7 @@ export default function Cart() {
                 <div>{"Items Images"}</div>
                 <div>{"Items Name"}</div>
                 <div>{"Items quantity"}</div>
-                <div style={{marginRight:"70px"}}>{"Items Price"}</div>
+                <div >{"Items Price"}</div>
 
             </div>
             {

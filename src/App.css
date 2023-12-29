@@ -31,6 +31,7 @@ body{
     width: 150px ;
     border-radius: 5px;
     padding:15px;
+    margin: 0 20px;
     box-shadow: 2px 2px 4px gray, -2px -2px 5px  rgb(197, 196, 196);
 }
 
@@ -143,4 +144,68 @@ body{
 
 .footer a{
    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .App .nav{
+        padding: 0 30px;
+    }
+   .App .nav .nav_ul li a{
+        font-size: 1.2em; 
+        padding: 0 10px;
+    }
+    .App .nav a{
+        font-size: 12px;
+    }
+    .App .nav div a .cartSymbol .counter{
+        height: 1.2em;
+        width: 1.2em;
+        top: -11px;
+        left: 18px;
+    }
+    .App .hero {
+        background-position: -150% 10%;
+    }
+    .App .hero .hero_text{
+        left: 5%;
+    }
+    .App .hero .hero_text .heading{
+        font-size: 40px;
+    }
+    .App .features_container .fea_box{
+        padding: 10px;
+    }
+    .App .blog_container .blog-box .blog-info .p1{
+        font-size: 1.5em;
+    }
+    .App .blog_container .blog-box .blog-info .p2, .App .blog_container .blog-box .blog-info .p3{
+        font-size: 1em;
+    }
+    .App .newsletter .newstext span h2{
+        font-size: 1.2em;
+    }
+    
+    .App .footer .col p ,.App .footer .col a{
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .App .contact-details, .App .form_details{
+        padding: 50px;
+        align-items: center;
+    }
+    .App .contact-details .info h2{
+        font-size: 1.2em;
+    }
+    .App .contact-details .info h3, .App .contact-details div li p{
+        font-size: 1em;
+    }
+    .App .form_details .people div p, .App .newsletter .newstext p {
+        font-size: .9em;
+        margin: 5px 0;
+    }
+    .App .list_container .list_item  h3{
+        font-size: 1em ;
+        font-weight: 500;
+    }
+   
 }

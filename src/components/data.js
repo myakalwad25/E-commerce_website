@@ -230,26 +230,26 @@ export const blogs= [
     },
     {
         key:3,
-        titel:"How to Style a Quiff",
-        discription :"Kickstarter man braid godard colorin book.Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
-        theme : "13/12",
-        img : 'Images/blog/b3.jpg'
-
-    },
-    {
-        key:4,
-        titel:"Must-have Skater Girl Items",
-        discription :"Kickstarter man braid godard colorin book.Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
-        theme : "12/01",
-        img : './Images/blog/b4.jpg'
-
-    },
-    {
-        key:5,
         titel:"Runway-inpired Trends",
         discription :"Kickstarter man braid godard colorin book.Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         theme : "10/03",
         img : './Images/blog/b5.jpg'
+
+    },
+    {
+        key:4,
+        titel:"The Cotton-jersey Zip-up Hoddie",
+        discription :"Kickstarter man braid godard colorin book.Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
+        theme : "13/01",
+        img : './Images/blog/b7.jpg'
+
+    },
+    {
+        key:5,
+        titel:"Must-have Skater Girl Items",
+        discription :"Kickstarter man braid godard colorin book.Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
+        theme : "12/01",
+        img : './Images/blog/b4.jpg'
 
     },
     {
@@ -259,15 +259,22 @@ export const blogs= [
         theme : "10/03",
         img : './Images/blog/b6.jpg'
 
-    },
+    }
+    ,
+    
     {
         key:7,
-        titel:"The Cotton-jersey Zip-up Hoddie",
+        titel:"How to Style a Quiff",
         discription :"Kickstarter man braid godard colorin book.Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
-        theme : "13/01",
-        img : './Images/blog/b7.jpg'
+        theme : "13/12",
+        img : 'Images/blog/b3.jpg'
 
     }
+    
+    
+    
+    
+    
 ]
 
 export const banners=[

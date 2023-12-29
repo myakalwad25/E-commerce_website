@@ -50,7 +50,7 @@ function Navbar() {
            transform: `rotateY(${rotation}deg)`,
            
         }}>
-                    <FaShoppingCart style={{height:"2em", width:"2em",color:"black"}}/>
+                    <FaShoppingCart className="cart" style={{height:"2em", width:"2em",color:"black"}}/>
                     <div className="counter">
                         {count}
                     </div>
