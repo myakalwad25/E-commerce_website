@@ -21,10 +21,10 @@
     position: relative;
     display: flex;
     /* border: 1px solid black; */
-    justify-content: sp;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    padding: 80px 50px;
+    padding: 80px ;
 }
 
 .about_container .about_img{

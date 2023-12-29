@@ -83,6 +83,7 @@ body{
     align-items: center;
     background-color: rgb(105, 192, 198); 
     height: 20vh;
+    margin: 40px 0px;
 }
 .newstext *{
     margin: 0;
