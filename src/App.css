@@ -309,6 +309,7 @@ body{
     .App .list_container .list_item h3, .App .list_container .list_item div{
         font-size: .9em;
         margin-right: 5px;
+        text-align: center;
         
     }
     .App .list_container .list_item .counter{
