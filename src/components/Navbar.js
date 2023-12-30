@@ -1,5 +1,5 @@
 import { FaShoppingCart } from "react-icons/fa";
-
+import { FaBars } from "react-icons/fa";
 import {nav} from './data.js'
 import './Navbar.css';
 import { Link } from "react-router-dom";
@@ -34,8 +34,8 @@ function Navbar() {
 
     return (
         <div className="nav">
-            
-                <img src="./Images/logo/png/cwb.png" className="nav_logo"></img>
+            <FaBars className="bar"/>
+            <img src="./Images/logo/png/cwb.png" className="nav_logo"></img>
            
             <ul className="nav_ul">
                

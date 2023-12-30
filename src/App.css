@@ -31,7 +31,7 @@ body{
     width: 150px ;
     border-radius: 5px;
     padding:15px;
-    margin: 0 20px;
+    margin: 20px  20px 0 0;
     box-shadow: 2px 2px 4px gray, -2px -2px 5px  rgb(197, 196, 196);
 }
 
@@ -86,13 +86,12 @@ body{
     height: 20vh;
     margin: 40px 0px;
 }
-.newstext *{
-    margin: 0;
-    
-}
 
-.newsletter .form{
+.newstext {
     width: 40%;
+}
+.newsletter .form{
+    width: 50%;
 
 }
 .newsletter .form input {
@@ -106,6 +105,7 @@ body{
 .newsletter .form button{
     outline: none;
     height: 33px;
+    width: 25%;
     border-radius: 5px;
     margin-left: 3px;
     border: 1px solid darkgray;
@@ -209,3 +209,120 @@ body{
     }
    
 }
+
+@media only screen and (max-width: 430px) {
+    .App .nav {
+        padding: 0;
+        
+    }
+    .App .nav .nav_ul{
+        position: absolute;
+        background-color: rgb(14, 173, 185);;
+        flex-direction: column;
+        height: 40vh;
+        width: 30%;
+        left: 0;
+        top: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 0 0 10px 0;
+        box-shadow: 0 4px 10px rgb(94, 92, 92, 0.5);
+        z-index: -3;
+        visibility: hidden;
+        transition: 1s ease-in-out;
+    }
+    .App .nav .nav_logo{
+        width: 30%;
+    }
+    .App .hero{
+        background-position: 50%;
+    }
+    .App .hero .hero_text{
+        left: 2%;
+        top: 40%;
+        
+    }
+    .App .hero .hero_text .heading {
+        font-size: 2em;
+    }
+    .App .hero .hero_text .subheading,.App .hero .hero_text .btn {
+        font-size: 1em;
+    }
+    .App .product_gallery .product_card {
+        width: 230px;
+    }
+    .App .newsletter {
+        padding: 10px 20px;
+        height: 30vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .App .newsletter .newstext,.App .newsletter .form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .App .shop .section_heading h1 {
+        font-size: 40px;
+    }
+    .App .blog_container, .App .list_container {
+        padding: 20px 0;
+        margin: 0;
+      
+       
+    }
+    .App .blog_container .blog-box {
+        width: 90%;
+        margin: 15% 0;
+    }
+    .App .blog_container .blog-box .blog-info .p1{
+        font-size: 1.1em;
+    }
+    .App .blog_container .blog-box .blog-info .p2 ~ .p3{
+        font-size: .9em;
+    }
+    .App .about_container, .App .contact-details, .App .form_details{
+        flex-direction: column;
+        padding: 80px 50px;
+       
+    }
+    .App .about_container .about_img ,.App .about_container .about_info, .App .form_details form , .App .form_details .people{
+        width: 100%;
+
+    }
+    .App .contact-details .info, .App .contact-details iframe,.App .form_details form , .App .form_details .people{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .App .list_container .list_item{
+        width: 90%;
+        
+    }
+    .App .list_container .list_item h3,.App .list_container .list_item .price{
+        width: 20%;
+        text-align: center;
+    }
+    .App .list_container .list_item h3, .App .list_container .list_item div{
+        font-size: .9em;
+        margin-right: 5px;
+        
+    }
+    .App .list_container .list_item .counter{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+    }
+    .App .list_container .list_item .counter button {
+        font-size: 12px;
+    }
+    
+   
+}
+
+
+

@@ -15,6 +15,18 @@
     z-index: 1000;
 
 }
+.bar {
+    position: absolute;
+    left: 10%;
+    font-size: 20px;
+}
+.bar:hover{
+    transform: rotate(90deg);
+    transition: 1s ease-in-out;
+}
+.bar:hover ~ .nav_ul{
+    visibility: visible;
+}
 .nav_logo{
     width: 15%;
     font-size: 3rem;

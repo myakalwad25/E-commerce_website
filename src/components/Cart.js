@@ -72,11 +72,11 @@ export default function Cart() {
             <div className="list_item" key={item.key}>
                     <img src={item.img} alt="product_img"></img>
                     <h3>{item.type}</h3>
-                    <div> 
+                    <div className="counter"> 
                         <button onClick={()=>handledec(item)}>{"-"}</button>
                             {item.quantity}
                         <button onClick={()=> handleinc(item)}>{"+"}</button></div>
-                    <div>{item.price*item.quantity}</div>
+                    <div className="price">{item.price*item.quantity}</div>
                     <div className="cross" onClick={evn => handleCross(item)}><RiDeleteBin5Fill size={"25px"}/> </div>
                     
                 </div>

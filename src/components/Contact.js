@@ -46,7 +46,7 @@ function Contact() {
                     <div className="people">
                         <div>
                             <img src="img/people/1.png" alt=""/>
-                            <p><span>Vijay Myakalwad : </span> Senior Marketing Manager</p>
+                            <p><span>Vijay Myakalwad : </span> Senior  Manager</p>
                             <p>Phone:+91 9472937430</p> 
                             <p> Email: contact@email.com</p>
                         </div>
