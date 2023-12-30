@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Cart from './components/Cart';
 import Shop from './components/Shop';
+
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import { cart_list } from './components/data';

@@ -43,9 +43,13 @@ function ProductCard(props) {
        changelist(new_list);
        
    }
+
+    const handle_Card = (item)=> {
+        alert(item.key);
+    }
    
     return (
-        <li className="product_card" key={product.key}>
+        <li className="product_card" onClick={()=>handle_Card(product)}  key={product.key}>
             <div className="product_img"> <img src={product.img} alt="photo"></img></div>
             <div className="product_info">
                 <p className="p1">{product.company}</p>

@@ -215,6 +215,9 @@ body{
         padding: 0;
         
     }
+    .App .nav .bar{
+        visibility: visible;
+    }
     .App .nav .nav_ul{
         position: absolute;
         background-color: rgb(14, 173, 185);;

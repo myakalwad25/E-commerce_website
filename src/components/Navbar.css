@@ -19,6 +19,7 @@
     position: absolute;
     left: 10%;
     font-size: 20px;
+    visibility: hidden;
 }
 .bar:hover{
     transform: rotate(90deg);
