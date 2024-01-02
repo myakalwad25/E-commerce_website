@@ -3,7 +3,7 @@ import Navbar from './components/Navbar.js';
 import Hero from './components/Hero';
 import Features from './components/features.js';
 import Product_section from './components/Product_section.js';
-
+import { products_list } from './components/data';
 import { useEffect, useState } from 'react';
 import { createContext } from 'react';
 import Contact from './components/Contact';
@@ -13,10 +13,12 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Cart from './components/Cart';
 import Shop from './components/Shop';
+import Product from './components/productdetails.js';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import { cart_list } from './components/data';
+import ProductDetail from './components/productdetails.js';
 
 export const userContext = createContext();
 function App() {
@@ -45,6 +47,7 @@ function App() {
             <Route path='/contact' element={<Contact/>}></Route>
             <Route path='/cart' element={<Cart/>}> </Route>
             <Route path='/Shop' element={<Shop/>}> </Route>
+            <Route path='/:id' element={<ProductDetail/>}></Route>
           </Routes>
         </BrowserRouter>
         

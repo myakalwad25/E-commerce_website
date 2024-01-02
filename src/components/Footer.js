@@ -49,7 +49,8 @@ function Footer() {
                     <a href="#">Trac my order</a>
                     <a href="#">help </a>
                 </div>
-                
+                {/* <img src="./Images/products/n1.jpg" alt='product photo'></img> */}
+
             </div>
     </>
     );

@@ -66,6 +66,8 @@
 
 
 .product_card .product_info{
+    color: black;
+    text-decoration:none;
   position: relative;
   padding:0 5px;
   width: 100%;
@@ -94,3 +96,37 @@
    z-index: 2;
 }
 
+/* product details css */
+.prod{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgdiv{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 40%;
+}
+.imgdiv img{
+    border-radius: 15px;
+    width: 100%;
+}
+.prod .prod_info{
+   
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.prod .prod_info p {
+    font-size: 1.7em;
+}
+.prod .prod_info span{position: relative;}
+.prod .prod_info span div{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    top: -10%;
+    left: 30%;
+}

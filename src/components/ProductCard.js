@@ -2,8 +2,9 @@ import { FaStar ,FaCartPlus} from "react-icons/fa";
 import { cart_list } from "./data";
 import { useState ,useContext, useEffect} from "react";
 import { userContext } from "../App";
+import { Link } from "react-router-dom";
 
-function Star_patter() {
+ function Star_patter(color, size) {
     
     return (
         <>
@@ -44,22 +45,22 @@ function ProductCard(props) {
        
    }
 
-    const handle_Card = (item)=> {
-        alert(item.key);
-    }
+    
    
     return (
-        <li className="product_card" onClick={()=>handle_Card(product)}  key={product.key}>
+        <Link  to={`/${product.key}`} style={{textDecoration:"none"}} >
+        <li className="product_card"   key={product.key}>
             <div className="product_img"> <img src={product.img} alt="photo"></img></div>
             <div className="product_info">
                 <p className="p1">{product.company}</p>
                 <p className="p2">{product.type}</p>
                 <p className="p3">${product.price}</p>
-                <Star_patter/>  
+                <Star_patter />  
                 <div className="cart_icon" onClick={()=>handleCart(product)}><FaCartPlus color={"rgb(14, 173, 185)"} size={'30px'}/></div>   
             </div>
 
         </li>
+        </Link>
     ); 
 }
 
