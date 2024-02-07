@@ -68,7 +68,7 @@ export const products_list = [
         code:"feature_product",
         type : "Half Slave Shirt",
         img : "./Images/products/f1.jpg",
-        company :'adidas',
+        company :"Levi's",
         quantity:1,
         price:99
     },
@@ -77,16 +77,16 @@ export const products_list = [
         code:"feature_product",
         type : "Half Slave Shirt",
         img : "./Images/products/f2.jpg",
-        company :'adidas',
+        company :'H&M',
         quantity:1,
-        price:99
+        price:89
     },
     {
         key:3,
         code:"feature_product",
         type : "Half Slave Shirt",
         img :"./Images/products/f3.jpg",
-        company :'adidas',
+        company :'Raymond',
         quantity:1,
         price:99
     },
@@ -95,70 +95,70 @@ export const products_list = [
         code:"feature_product",
         type : "Half Slave Shirt",
         img :"./Images/products/f4.jpg",
-        company :'adidas',
+        company :'Raymond',
         quantity:1,
-        price:99
+        price:129
     },
     {
         key:5,
         code:"feature_product",
-        type : "Half Slave Shirt",
+        type : "Full Slave Shirt",
         img : "./Images/products/f5.jpg",
-        company :'adidas',
+        company :'Raymond',
         quantity:1,
-        price:99
+        price:119
     },
     {
         key:6,
         code:"feature_product",
-        type : "Half Slave Shirt",
+        type : "Full Slave Shirt",
         img : "./Images/products/f6.jpg",
-        company :'adidas',
+        company :'Raymond',
         quantity:1,
         price:99
     },
     {
         key:7,
         code:"feature_product",
-        type : "Half Slave Shirt",
+        type : "Pant",
         img : "./Images/products/f7.jpg",
-        company :'adidas',
+        company :'Peter&England',
         quantity:1,
-        price:99
+        price:129
     },
     {
         key:8,
         code:"feature_product",
-        type : "Half Slave Shirt",
+        type : "Kurta",
         img :"./Images/products/f8.jpg",
-        company :'adidas',
+        company :'Roadester',
         quantity:1,
-        price:99
+        price:59
     },
     {
         key:9,
         code:"new_arrival",
-        type : "Half Slave Shirt",
+        type : "Full Slave Shirt",
         img : "./Images/products/n1.jpg",
-        company :'adidas',
+        company :'Raymond',
         quantity:1,
         price:99
     },
     {
         key:10,
         code:"new_arrival",
-        type : "Half Slave Shirt",
+        type : "Full Slave Shirt",
         img :"./Images/products/n2.jpg",
-        company :'adidas',
+        company :'Raymond',
         quantity:1,
         price:99
     }   ,
     {
         key:11,
         code:"new_arrival",
-        type : "Half Slave Shirt",
+        type : "Full Slave Shirt",
         img :"./Images/products/n3.jpg",
-        company :'adidas',
+        company :'Peter&England',
         quantity:1,
         price:99
     },
@@ -167,34 +167,34 @@ export const products_list = [
         code:"new_arrival",
         type : "Half Slave Shirt",
         img : "./Images/products/n4.jpg",
-        company :'adidas',
+        company :'Raymond',
         quantity:1,
         price:99
     },
     {
         key:13,
         code:"new_arrival",
-        type : "Half Slave Shirt",
+        type : "Full Slave Shirt",
         img :"./Images/products/n5.jpg",
-        company :'adidas',
+        company :'Raymond',
         quantity:1,
         price:99
     },
     {
         key:14,
         code:"new_arrival",
-        type : "Half Slave Shirt",
+        type : "Casual pant",
         img : "./Images/products/n6.jpg",
-        company :'adidas',
+        company :"Levi's",
         quantity:1,
-        price:99
+        price:79
     } ,
     {
         key:15,
         code:"new_arrival",
-        type : "Half Slave Shirt",
+        type : "Full Slave Shirt",
         img :"./Images/products/n7.jpg",
-        company :'adidas',
+        company :'H&M',
         quantity:1,
         price:99
     },
@@ -203,9 +203,9 @@ export const products_list = [
         code:"new_arrival",
         type : "Half Slave Shirt",
         img : "./Images/products/n8.jpg",
-        company :'adidas',
+        company :'H&M',
         quantity:1,
-        price:99
+        price:129
     }
     
 ]
