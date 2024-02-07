@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function handleclick() {
   return( 
-    alert("btn clicked")
+    alert("Get Ready to Shop!!")
 );
 }
 
